@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body onload="getData()">
+<table
+        cellpadding="15"
+        cellspacing="0"
+        border="1"
+        id="table"
+>
+
+</table>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.4/axios.min.js">
+</script>
+<script>
+    arr = []
+    async function getData() {
+        try {
+            let data = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-75.html")
+            let data2 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-2.html")
+            let data3 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-3.html")
+            let data4 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-4.html")
+            let data5 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-5.html")
+            let data6 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-6.html")
+            let data7 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-7.html")
+            let data8 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-8.html")
+            let data9 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-9.html")
+            let data10 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-10.html")
+            let data11 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-11.html")
+            let data12 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-12.html")
+            let data13 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-13.html")
+            let data14 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-14.html")
+            let data15 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-15.html")
+            let data16 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-16.html")
+            let data17 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-17.html")
+            let data18 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-18.html")
+            let data19 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-19.html")
+            let data20 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-20.html")
+            let data21 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-21.html")
+            let data22 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-22.html")
+            let data23 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-23.html")
+            let data24 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-24.html")
+            let data25 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-25.html")
+            let data26 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-26.html")
+            let data27 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-27.html")
+            let data28 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-28.html")
+            let data29 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-29.html")
+            let data30 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-30.html")
+            let data31 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-31.html")
+            let data32 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-32.html")
+            let data33 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-33.html")
+            let data34 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-34.html")
+            let data35 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-35.html")
+            let data36 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-36.html")
+            let data37 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-37.html")
+            let data38 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-38.html")
+            let data39 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-39.html")
+            let data40 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-40.html")
+            let data41 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-41.html")
+            let data42 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-42.html")
+            let data43 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-43.html")
+            let data44 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-44.html")
+            let data45 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-45.html")
+            let data46 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-46.html")
+            let data47 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-47.html")
+            let data48 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-48.html")
+            let data49 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-49.html")
+            let data50 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-50.html")
+            let data51 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-51.html")
+            let data52 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-52.html")
+            let data53 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-53.html")
+            let data54 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-54.html")
+            let data55 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-55.html")
+            let data56 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-56.html")
+            let data57 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-57.html")
+            let data58 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-58.html")
+            let data59 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-59.html")
+            let data60 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-60.html")
+            let data61 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-61.html")
+            let data62 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-62.html")
+            let data63 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-63.html")
+            let data64 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-64.html")
+            let data65 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-65.html")
+            let data66 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-66.html")
+            let data67 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-67.html")
+            let data68 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-68.html")
+            let data69 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-69.html")
+            let data70 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-70.html")
+            let data71 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-71.html")
+            let data72 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-72.html")
+            let data73 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-73.html")
+            let data74 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-74.html")
+            let data75 = await axios.get("https://api.tinnhanhchungkhoan.vn/api/morenews-zone-1-75.html")
+            mainData = data.data.data.contents
+            mainData2 = data.data.data.contents
+            mainData3 = data.data.data.contents
+            mainData4 = data.data.data.contents
+            mainData5 = data.data.data.contents
+            mainData6 = data.data.data.contents
+            mainData7 = data.data.data.contents
+            mainData8 = data.data.data.contents
+            mainData9 = data.data.data.contents
+            mainData10 = data.data.data.contents
+            mainData11= data.data.data.contents
+            mainData12= data.data.data.contents
+            mainData13= data.data.data.contents
+            mainData14= data.data.data.contents
+            mainData15= data.data.data.contents
+            mainData16= data.data.data.contents
+            mainData17= data.data.data.contents
+            mainData18= data.data.data.contents
+            mainData19= data.data.data.contents
+            mainData20= data.data.data.contents
+            mainData21= data.data.data.contents
+            mainData22= data.data.data.contents
+            mainData23= data.data.data.contents
+            mainData24= data.data.data.contents
+            mainData25= data.data.data.contents
+            mainData26= data.data.data.contents
+            mainData27= data.data.data.contents
+            mainData28= data.data.data.contents
+            mainData29= data.data.data.contents
+            mainData30= data.data.data.contents
+            mainData31= data.data.data.contents
+            mainData32= data.data.data.contents
+            mainData33= data.data.data.contents
+            mainData34= data.data.data.contents
+            mainData35= data.data.data.contents
+            mainData36= data.data.data.contents
+            mainData37= data.data.data.contents
+            mainData38= data.data.data.contents
+            mainData39= data.data.data.contents
+            mainData40= data.data.data.contents
+            mainData41= data.data.data.contents
+            mainData42= data.data.data.contents
+            mainData43= data.data.data.contents
+            mainData44= data.data.data.contents
+            mainData45= data.data.data.contents
+            mainData46= data.data.data.contents
+            mainData47= data.data.data.contents
+            mainData48= data.data.data.contents
+            mainData49= data.data.data.contents
+            mainData50= data.data.data.contents
+            mainData51= data.data.data.contents
+            mainData52= data.data.data.contents
+            mainData53= data.data.data.contents
+            mainData54= data.data.data.contents
+            mainData55= data.data.data.contents
+            mainData56= data.data.data.contents
+            mainData57= data.data.data.contents
+            mainData58= data.data.data.contents
+            mainData59= data.data.data.contents
+            mainData60= data.data.data.contents
+            mainData61= data.data.data.contents
+            mainData62= data.data.data.contents
+            mainData63= data.data.data.contents
+            mainData64= data.data.data.contents
+            mainData65= data.data.data.contents
+            mainData66= data.data.data.contents
+            mainData67= data.data.data.contents
+            mainData68= data.data.data.contents
+            mainData69= data.data.data.contents
+            mainData70= data.data.data.contents
+            mainData71= data.data.data.contents
+            mainData72= data.data.data.contents
+            mainData73= data.data.data.contents
+            mainData74= data.data.data.contents
+            mainData75= data.data.data.contents
+
+
+
+            arr = [...mainData, ...mainData2,...mainData3,...mainData4,...mainData5,...mainData6,...mainData7,...mainData8,...mainData9,...mainData10,...mainData11,...mainData12,...mainData13,...mainData14,...mainData15,...mainData16,...mainData17,...mainData18,...mainData19,...mainData20,...mainData21,...mainData22,...mainData23,...mainData24,...mainData25,...mainData26,...mainData27,...mainData28,...mainData29,...mainData30,...mainData31,...mainData32,...mainData33,...mainData34,...mainData35,...mainData36,...mainData37,...mainData38,...mainData39,...mainData40,...mainData41,...mainData42,...mainData43,...mainData44,...mainData45,...mainData46,...mainData47,...mainData48,...mainData49,...mainData50,...mainData51,...mainData52,...mainData53,...mainData54,...mainData55,...mainData56,...mainData57,...mainData58,...mainData59,...mainData60,...mainData61,...mainData62,...mainData63,...mainData64,...mainData65,...mainData66,...mainData67,...mainData68,...mainData69,...mainData70,...mainData71,...mainData72,...mainData73,...mainData74,...mainData75]
+
+            renderData()
+            console.log(arr)
+        } catch (e) {
+            console.log(e)
+        }
+    }
+
+    function renderData() {
+        let element = `<tr>
+            <th>STT</th>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Date</th>
+        </tr>
+        <br><br>
+        <button type="button" onclick="tableToCSV()">
+            download CSV
+        </button>`
+        arr.map((value, index) => {
+            element += `<tr>
+                <th>${index + 1}</th>
+                <th>${value.content_id}</th>
+                <th>${value.title}</th>
+                <th>${value.description}</th>
+                <th>${new Date(value.date * 1000).toDateString()}</th>
+               </tr>`
+//             console.table(index, Date(value.date).toString())
+        })
+        document.getElementById("table").innerHTML = element
+
+    }
+
+    function tableToCSV() {
+
+        // Variable to store the final csv data
+        var csv_data = [];
+
+        // Get each row data
+        var rows = document.getElementsByTagName('tr');
+        for (var i = 0; i < rows.length; i++) {
+
+            // Get each column data
+            var cols = rows[i].querySelectorAll('td,th');
+
+            // Stores each csv row data
+            var csvrow = [];
+            for (var j = 0; j < cols.length; j++) {
+
+                // Get the text data of each cell
+                // of a row and push it to csvrow
+                csvrow.push(cols[j].innerHTML);
+            }
+
+            // Combine each column value with comma
+            csv_data.push(csvrow.join(","));
+        }
+
+        // Combine each row data with new line character
+        csv_data = csv_data.join('\n');
+
+        // Call this function to download csv file
+        downloadCSVFile(csv_data);
+
+    }
+
+    function downloadCSVFile(csv_data) {
+
+        // Create CSV file object and feed
+        // our csv_data into it
+        CSVFile = new Blob([csv_data], {
+            type: "text/csv"
+        });
+
+        // Create to temporary link to initiate
+        // download process
+        var temp_link = document.createElement('a');
+
+        // Download csv file
+        temp_link.download = "data.csv";
+        var url = window.URL.createObjectURL(CSVFile);
+        temp_link.href = url;
+
+        // This link should not be displayed
+        temp_link.style.display = "none";
+        document.body.appendChild(temp_link);
+
+        // Automatically click the link to
+        // trigger download
+        temp_link.click();
+        document.body.removeChild(temp_link);
+    }
+
+</script>
+</body>
+</html>
